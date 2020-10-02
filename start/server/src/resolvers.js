@@ -57,9 +57,6 @@ module.exports = {
                 launchIds,
             });
 
-            console.log(results);
-            console.log(launches);
-
             return {
                 success: results && results.length === launchIds.length,
                 message:
